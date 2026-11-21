@@ -343,3 +343,26 @@
 "A cópia tem a qualidade do stream. Para a imagem original, traga o clipe do iPhone para o Mac (AirDrop, cabo ou Arquivos) e use Câmera › Juntar original do iPhone ao som do Mac. O bmonitor acha o som do take pelo nome do clipe e junta sem recodificar a imagem." = "The copy has the stream's quality. For the original image, bring the clip from the iPhone to the Mac (AirDrop, cable or Files) and use Camera › Merge iPhone Original with Mac Audio. bmonitor finds the take's sound by the clip name and merges without re-encoding the image.";
 "Para conferir a sincronia" = "To check the sync";
 "Bata uma palma diante da câmera: o quadro em que as mãos se tocam deve cair junto com o som. O Atraso do microfone é só o ponto de partida; a sincronia fina é automática." = "Clap in front of the camera: the frame where the hands touch should line up with the sound. Microphone delay is only the starting point; the fine sync is automatic.";
+
+/* Luz de borda */
+"Luz de borda" = "Edge light";
+"Luz de borda (%@)" = "Edge light (%@)";
+"A borda da tela acende e ilumina o rosto, como no Photo Booth." = "The edge of the screen lights up your face, like in Photo Booth.";
+"Fixa" = "Steady";
+"Respirar" = "Breathe";
+"Arco-íris" = "Rainbow";
+"Correr" = "Flow";
+"Efeito" = "Effect";
+"Cor" = "Color";
+"Branca" = "White";
+"Colorida" = "Color";
+"Temperatura" = "Temperature";
+"Ajustes" = "Adjust";
+"Brilho" = "Brightness";
+"Espessura" = "Thickness";
+"Telas" = "Displays";
+"Acender ou apagar a luz de borda" = "Turn the edge light on or off";
+"Acender a luz de borda" = "Turn On Edge Light";
+"Apagar a luz de borda" = "Turn Off Edge Light";
+"Ajustar a luz de borda…" = "Edge Light Settings…";
+"O iPhone mandou só %lld%% do vídeo neste formato. A cópia saiu na velocidade certa, mas aos saltos; a 30 fps ela sai lisa. O original no iPhone não é afetado." = "The iPhone sent only %lld%% of the video in this format. The copy plays at the right speed, but choppy; at 30 fps it comes out smooth. The original on the iPhone is not affected.";
