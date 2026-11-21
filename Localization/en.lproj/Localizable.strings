@@ -389,3 +389,7 @@
 "Aguarde o vídeo ao vivo para salvar um quadro." = "Wait for live video before saving a frame.";
 "Salvar foto do Blackmagic…" = "Save Blackmagic Photo…";
 "Usar a Câmera de Continuidade…" = "Use Continuity Camera…";
+
+"Idioma do aplicativo" = "App Language";
+"Automático (idioma do Mac)" = "Automatic (Mac language)";
+"Feche e reabra o bmonitor para aplicar o idioma." = "Quit and reopen bmonitor to apply the language.";

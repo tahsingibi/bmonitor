@@ -23,7 +23,7 @@ Live video and audio over Wi‑Fi, about 0.3 s behind real time.</p>
 
 <p align="center"><img src="docs/readme/mac-monitor-en.webp" width="880" alt="bmonitor on the Mac: the iPhone's live video with REC, timecode, audio meter and the control bar, and the script panel beside it"></p>
 
-The app speaks English, Brazilian Portuguese and Turkish, following your Mac's language.
+BMonitor supports English, Brazilian Portuguese and Turkish. It follows your Mac’s preferred languages and uses English as a fallback. Choose a language in **bmonitor → Settings**, then reopen the app to apply it.
 
 **On a handheld:** a test build for SteamOS turns a Lenovo Legion Go S into the same monitor and remote control, opened from the Steam library. See [bmonitor for SteamOS](#bmonitor-for-steamos-test-build).
 

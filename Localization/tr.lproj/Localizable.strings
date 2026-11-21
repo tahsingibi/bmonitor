@@ -390,3 +390,7 @@
 "Aguarde o vídeo ao vivo para salvar um quadro." = "Kareyi kaydetmek için canlı görüntünün gelmesini bekle.";
 "Salvar foto do Blackmagic…" = "Blackmagic’ten fotoğraf kaydet…";
 "Usar a Câmera de Continuidade…" = "Süreklilik Kamerası’nı kullan…";
+
+"Idioma do aplicativo" = "Uygulama dili";
+"Automático (idioma do Mac)" = "Otomatik (Mac’in dili)";
+"Feche e reabra o bmonitor para aplicar o idioma." = "Dili uygulamak için bmonitor’u kapatıp yeniden aç.";

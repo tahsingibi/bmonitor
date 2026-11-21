@@ -103,6 +103,10 @@ struct MonitorApp: App {
             }
         }
 
+        Settings {
+            LanguageSettings()
+        }
+
         Window("Foto", id: "photoCapture") {
             PhotoCaptureView(model: model)
         }
