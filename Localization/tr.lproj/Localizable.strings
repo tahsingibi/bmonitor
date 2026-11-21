@@ -375,3 +375,9 @@
 "Mais desfoque" = "Daha bulanık";
 "Mais nitidez" = "Daha net";
 "Modo cinematográfico: a abertura muda só o desfoque do fundo. Ligue e desligue o modo no iPhone; o Blackmagic Camera não o expõe ao controle remoto." = "Sinematik mod: diyafram yalnızca arka plan bulanıklığını değiştirir. Modu iPhone'dan açıp kapatın; Blackmagic Camera bunu uzaktan kontrole açmıyor.";
+
+"LUT de visualização no Mac" = "Mac’te LUT önizleme";
+"Sem LUT" = "LUT yok";
+"Importar LUT .cube…" = ".cube LUT içe aktar…";
+"Este arquivo não é um LUT 3D .cube compatível." = "Bu dosya desteklenen bir 3B .cube LUT değil.";
+"Não foi possível abrir o LUT: %@" = "LUT açılamadı: %@";
