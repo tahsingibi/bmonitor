@@ -54,6 +54,7 @@ struct MonitorApp: App {
                 Button("Juntar original do iPhone ao som do Mac…") { model.mergeOriginals() }
                     .disabled(model.mergingOriginals)
                 WebcamMenuItem(model: model)
+                PhotoCaptureMenuItem()
                 Divider()
                 Button("ISO…") { model.togglePanel(.iso) }.keyboardShortcut(.iso, typing: model.script.editing)
                 Button("Shutter…") { model.togglePanel(.shutter) }.keyboardShortcut(.shutter, typing: model.script.editing)
@@ -101,6 +102,12 @@ struct MonitorApp: App {
                 MicrophoneGuideMenuItem()
             }
         }
+
+        Window("Foto", id: "photoCapture") {
+            PhotoCaptureView(model: model)
+        }
+        .windowResizability(.contentSize)
+        .defaultPosition(.center)
 
         Window("Webcam", id: "webcam") {
             WebcamGuide()
@@ -298,5 +305,14 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationWillTerminate(_ notification: Notification) {
         MainActor.assumeIsolated { Self.model?.shutdown() }
+    }
+}
+
+
+private struct PhotoCaptureMenuItem: View {
+    @Environment(\.openWindow) private var openWindow
+
+    var body: some View {
+        Button("Foto…") { openWindow(id: "photoCapture") }
     }
 }

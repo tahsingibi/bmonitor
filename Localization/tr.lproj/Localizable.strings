@@ -381,3 +381,12 @@
 "Importar LUT .cube…" = ".cube LUT içe aktar…";
 "Este arquivo não é um LUT 3D .cube compatível." = "Bu dosya desteklenen bir 3B .cube LUT değil.";
 "Não foi possível abrir o LUT: %@" = "LUT açılamadı: %@";
+
+"Foto" = "Fotoğraf";
+"Foto…" = "Fotoğraf…";
+"Escolha o iPhone no menu do macOS. Tire a foto e confirme no iPhone." = "macOS menüsünden iPhone’unu seç. Fotoğrafı iPhone’da çekip onayla.";
+"Salva como JPEG o quadro recebido do iPhone." = "iPhone’dan gelen canlı yayın karesini JPEG olarak kaydeder.";
+"Câmera de Continuidade" = "Süreklilik Kamerası";
+"Aguarde o vídeo ao vivo para salvar um quadro." = "Kareyi kaydetmek için canlı görüntünün gelmesini bekle.";
+"Salvar foto do Blackmagic…" = "Blackmagic’ten fotoğraf kaydet…";
+"Usar a Câmera de Continuidade…" = "Süreklilik Kamerası’nı kullan…";

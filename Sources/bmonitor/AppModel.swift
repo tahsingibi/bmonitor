@@ -181,6 +181,7 @@ final class AppModel {
     /// Luz de borda nas telas do Mac; independe da câmera.
     let edgeLight = EdgeLight()
     let lutLibrary = LUTLibrary()
+    @ObservationIgnored private let photoFrame = PhotoFrame()
     /// A janela própria do roteiro, quando ele está destacado da janela da câmera.
     @ObservationIgnored private var scriptWindow: ScriptWindow?
     @ObservationIgnored private let discovery = Discovery()
@@ -308,7 +309,9 @@ final class AppModel {
         let session = StreamSession(api: api, tsbpd: UserDefaults.standard.bool(forKey: "srtBuffer"))
         let layer = displayLayer
         let preview = lutLibrary.preview
+        let photoFrame = photoFrame
         session.onFrame = {
+            photoFrame.receive($0)
             preview.enqueue($0, into: layer)
             VirtualCamera.shared.send($0)
         }
@@ -629,6 +632,21 @@ final class AppModel {
             guard let self, !Task.isCancelled, self.panel == nil else { return }
             self.controlsVisible = false
             NSCursor.setHiddenUntilMouseMoves(true)
+        }
+    }
+
+    var canSavePhotoFrame: Bool { signal == .ok || signal == .lossy }
+
+    func savePhotoFrame() {
+        guard canSavePhotoFrame, let image = photoFrame.current() else {
+            let alert = NSAlert()
+            alert.messageText = String(localized: "Aguarde o vídeo ao vivo para salvar um quadro.")
+            alert.runModal()
+            return
+        }
+        let turns = quarterTurns
+        PhotoSavePanel.present(type: .jpeg) { url in
+            try PhotoFrame.jpeg(image, quarterTurns: turns).write(to: url, options: .atomic)
         }
     }
 

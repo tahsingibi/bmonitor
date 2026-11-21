@@ -457,6 +457,7 @@ struct ControlBar: View {
                     RecordButton(model: model).disabled(cameraGone)
                     HStack(spacing: 2) {
                         Group {
+                            photoButton
                             copyButton
                             separator
                             window
@@ -485,6 +486,7 @@ struct ControlBar: View {
             RecordButton(model: model).disabled(cameraGone)
             HStack(spacing: spacing) {
                 Group {
+                    photoButton
                     copyButton
                     separator
                     camera(compact: compact, tight: tight)
@@ -496,6 +498,18 @@ struct ControlBar: View {
                 scriptToggle
             }
         }
+    }
+
+    private var photoButton: some View {
+        Button { model.savePhotoFrame() } label: {
+            Image(systemName: "camera")
+                .font(.system(size: 15, weight: .medium))
+                .frame(width: Theme.barItem, height: Theme.barItem)
+        }
+        .buttonStyle(HUDItemStyle(isOn: false))
+        .help("Salvar foto do Blackmagic…")
+        .accessibilityLabel("Salvar foto do Blackmagic…")
+        .disabled(!model.canSavePhotoFrame)
     }
 
     /// O vidro da barra, desenhado pelo `RecordCenteredLayout` só em volta dos controles. Pega o
