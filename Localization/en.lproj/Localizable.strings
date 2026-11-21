@@ -366,3 +366,11 @@
 "Apagar a luz de borda" = "Turn Off Edge Light";
 "Ajustar a luz de borda…" = "Edge Light Settings…";
 "O iPhone mandou só %lld%% do vídeo neste formato. A cópia saiu na velocidade certa, mas aos saltos; a 30 fps ela sai lisa. O original no iPhone não é afetado." = "The iPhone sent only %lld%% of the video in this format. The copy plays at the right speed, but choppy; at 30 fps it comes out smooth. The original on the iPhone is not affected.";
+
+/* Modo cinematográfico */
+"Cinematográfico" = "Cinematic";
+"Desfoque" = "Blur";
+"Abertura" = "Aperture";
+"Mais desfoque" = "More blur";
+"Mais nitidez" = "Sharper";
+"Modo cinematográfico: a abertura muda só o desfoque do fundo. Ligue e desligue o modo no iPhone; o Blackmagic Camera não o expõe ao controle remoto." = "Cinematic mode: the aperture only changes the background blur. Turn the mode on and off on the iPhone; Blackmagic Camera doesn't expose it to remote control.";

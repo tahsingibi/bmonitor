@@ -367,3 +367,11 @@
 "Apagar a luz de borda" = "Kenar Işığını Kapat";
 "Ajustar a luz de borda…" = "Kenar Işığı Ayarları…";
 "O iPhone mandou só %lld%% do vídeo neste formato. A cópia saiu na velocidade certa, mas aos saltos; a 30 fps ela sai lisa. O original no iPhone não é afetado." = "iPhone bu formatta görüntünün yalnızca %%%lld kadarını gönderdi. Kopya doğru hızda ama kesik kesik; 30 fps'te akıcı olur. iPhone'daki orijinal kayıt etkilenmez.";
+
+/* Modo cinematográfico */
+"Cinematográfico" = "Sinematik";
+"Desfoque" = "Bulanıklık";
+"Abertura" = "Diyafram";
+"Mais desfoque" = "Daha bulanık";
+"Mais nitidez" = "Daha net";
+"Modo cinematográfico: a abertura muda só o desfoque do fundo. Ligue e desligue o modo no iPhone; o Blackmagic Camera não o expõe ao controle remoto." = "Sinematik mod: diyafram yalnızca arka plan bulanıklığını değiştirir. Modu iPhone'dan açıp kapatın; Blackmagic Camera bunu uzaktan kontrole açmıyor.";
